@@ -57,7 +57,7 @@ public class Anasayfa extends Activity {
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN) {
                     startButton.setBackgroundColor(Color.TRANSPARENT);
-                    intent = new Intent(Anasayfa.this, SiparisEkrani.class);
+                    intent = new Intent(Anasayfa.this, MenuListActivity.class);
                     startActivity(intent);
                 }
                 if (event.getAction() == MotionEvent.ACTION_UP) {
